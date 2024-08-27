@@ -131,9 +131,9 @@ $$
 以下の重回帰式で予測する。
 
 $$
-\bm{y}=\bm{XW+\epsilon} \\
+\bm{\^y}=\bm{XW+\epsilon} \\
 \begin{align}
-\nonumber\bm{y}&=\begin{pmatrix}
+\nonumber\bm{\^y}&=\begin{pmatrix}
     \^{y}_1 \\
     \^{y}_2 \\
     \vdots \\
@@ -142,7 +142,7 @@ $$
 \nonumber\bm{X}&=\begin{pmatrix}
     1 & X_{10} & X_{20} \\
     1 & X_{11} & X_{21} \\
-    \vdots \\
+    \vdots & \vdots & \vdots \\
     1 & X_{1i} & X_{2i} \\
 \end{pmatrix} \\
 \nonumber\bm{W}&=\begin{pmatrix}
